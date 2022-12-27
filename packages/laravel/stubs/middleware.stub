@@ -3,6 +3,7 @@
 namespace {{ namespace }};
 
 use Illuminate\Http\Request;
+use Navigare\Response as NavigareResponse;
 
 class {{ class }} extends \Navigare\Middleware
 {
